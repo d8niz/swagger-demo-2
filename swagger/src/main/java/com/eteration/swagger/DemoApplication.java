@@ -33,8 +33,8 @@ public class DemoApplication {
 
 	private ApiInfo metaData(){
         return new ApiInfoBuilder()
-            .title("Spring Boot REST API")
-            .description("\"Spring Boot Rest Api for Store Service\"")
+            .title("Eteration Bootcamp Rest Api Documentation Swagger & Spring Boot")
+            .description("\"Spring Boot Rest Api for Address Book Service\"")
             .version("1.0.0")
             .license("Apache License Version 2.0")
             .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
