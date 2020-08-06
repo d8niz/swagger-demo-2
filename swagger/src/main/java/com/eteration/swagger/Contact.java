@@ -1,8 +1,14 @@
 package com.eteration.swagger;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class Contact {
+
+    @ApiModelProperty(notes = "Id of the contact")
     private String id;
+    @ApiModelProperty(notes = "Name of the contact")
     private String name;
+    @ApiModelProperty(notes = "Phone number of the contact")
     private String phone;
 
     public String getId() {
